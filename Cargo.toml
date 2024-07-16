@@ -1,0 +1,12 @@
+[package]
+name = "aptos-metrics-core"
+description = "Aptos metrics shortcuts"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0"
+prometheus = "0.13"
+
+[dev-dependencies]
+claims = "0.7"
